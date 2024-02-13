@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC1: Ruas da Cidade de Braga</title>
+        <date>2024-02-06</date>
+        <author>
+            <id>a89292</id>
+            <nome>Mike Pinto</nome>
+        </author>
+        <uc>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </uc>
+    </meta>
+
+    <resumo>
+        <p>Criar um indice de páginas com todas as ruas de Braga fornecidas no dataset</p>
+        <p>Criar páginas com as informações dísponiveis sobre as ruas</p>
+        <p>Cada página deverá possuir um rodapé e um botão de voltar atrás</p>
+        <p>Matérial Necessário para a realização deste TPC disponível aqui<url>https://epl.di.uminho.pt/~jcr/AULAS/EngWeb2024/semana1/MapaRuas-materialBase.zip</url><texto>url embutido</texto></p>
+    </resumo>
+
+    <resultados>
+        <resultado>Indice de ruas completo</resultado>
+        <resultado>Todas as páginas de detalhes das ruas completas</resultado>
+    </resultados>
+</doc>
