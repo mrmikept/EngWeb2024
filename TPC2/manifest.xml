@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC2: Página web Escola de Música com recurso a json-server e node.js</title>
+        <date>2024-02-20</date>
+        <author>
+            <id>a89292</id>
+            <nome>Mike Pinto</nome>
+        </author>
+        <uc>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </uc>
+    </meta>
+
+    <resumo>
+        <p>Desenvolver uma página web em node.js com informação de um dataset de uma escola de música, composto por alunos, cursos e instrumentos a funcionar sobre json-server.</p>
+        <p>A Página web deverá conter indices com lista de alunos, lista de instrumentos e lista de cursos. Deverá ainda possuir uma página sobre detalhes de um aluno e detalhes de um curso</p>
+        <p>Cada página de indice e detalhes deverá ainda possuir um botão de voltar atrás</p>
+        <p>Matérial Necessário para a realização deste TPC disponível <url>https://epl.di.uminho.pt/~jcr/TRANSF/db.json</url><texto>aqui</texto></p>
+    </resumo>
+
+    <resultados>
+        <resultado>Página principal '/' com reencaminhamento para as páginas de lista de alunos, lista de cursos e lista de instrumentos.</resultado>
+        <resultado>Página de lista de alunos '/alunos' ordenada alfabeticamente por nome de aluno</resultado>
+        <resultado>Página de detalhes do aluno AX '/alunos/AX' onde consta o id, nome, data de nascimento, curso(com hiperligação para a página do curso), ano do curso e instrumento.</resultado>
+        <resultado>Página da lista de cursos '/cursos' disponivel no dataset ordenados alfabeticamente por designação do curso.Página da lista de cursos disponivel no dataset ordenados alfabeticamente por designação do curso.</resultado>
+        <resultado>Página com o detalhe do curso CX '/cursos/CX' onde consta o id, duração e instrumento do curso.</resultado>
+        <resultado>Página da lista de instrumentos '/instrumentos' ordenados alfabeticamente por nome ('#text' do dataset).</resultado>
+    </resultados>
+</doc>
