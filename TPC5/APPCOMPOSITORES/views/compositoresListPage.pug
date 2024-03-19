@@ -1,0 +1,34 @@
+extends layout
+
+block content
+    .w3-container
+        .w3-cell-row(style={width: '30%'})
+            .w3-cell
+                h2
+                    b Lista de Compositores
+            .w3-cell
+                p
+                    a.w3-button.w3-round.w3-grey(href="/compositores/registo")
+                        b Adicionar Compositor
+        table.w3-table-all
+            tr
+                th Nome
+                th Data Nascimento
+                th Data Obito
+                th Período
+                th Ações
+            each comp in lComp
+                tr 
+                    td
+                        a(href="/compositores/" + comp.id)= comp.nome
+                    td= comp.dataNasc
+                    td= comp.dataObito
+                    td 
+                        a(href="/periodos/" + comp.periodo)= comp.periodo
+                    td
+                        span [
+                        a(href="/compositores/edit/" + comp.id) Editar
+                        span ]
+                        span [
+                        a(href="/compositores/delete/" + comp.id) Apagar
+                        span ]

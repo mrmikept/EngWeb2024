@@ -1,0 +1,42 @@
+extends layout
+
+block content
+    h2.w3-center 
+        b Período #{periodo.id}
+    .w3-container.w3-margin-bottom 
+        ul.w3-ul.w3-card-4 
+            if periodo.secInicio
+                li 
+                    b Século de Início: 
+                    span #{periodo.secInicio}
+            else
+                li 
+                    b Século de Início: 
+                    span Informação não dísponivel.
+            if periodo.secFim
+                li 
+                    b Século de Fim: 
+                    span #{periodo.secFim}
+            else
+                li 
+                    b Século de Fim: 
+                    span Informação não dísponivel.
+            
+    
+        .w3-container 
+        if periodo.compositores
+            h3 
+                b Compositores deste Período:
+            ul.w3-ul.w3-card-4
+                each comp in periodo.compositores
+                    li 
+                        a(href="/compositores/" + comp[0])= comp[1]
+    
+    .w3-cell.w3-container 
+        a.w3-button.w3-teal(href="/periodos") 
+            b Voltar à lista de Períodos
+        a.w3-button.w3-blue(href="/periodos/edit/" + periodo.id)
+            b Editar Período
+        a.w3-button.w3-red(href="/periodos/delete/" + periodo.id) 
+            b Apagar Período
+    

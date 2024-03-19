@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TP5: Compositores Músicais v2.0</title>
+        <date>2024-03-11</date>
+        <author>
+            <id>a89292</id>
+            <nome>Mike Pinto</nome>
+        </author>
+        <uc>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </uc>
+    </meta>
+
+    <resumo>
+        <p>Refazer o TPC4 sobre Compositores Músicais recorrendo à framework Express.js e Pug.js</p>
+    </resumo>
+
+    <resultados>
+        <resultado>Páginas e rotas dos compositores</resultado>
+        <resultado>Páginas e rotas dos periodos</resultado>
+    </resultados>
+</doc>
