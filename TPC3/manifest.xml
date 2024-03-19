@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC3: Filmes Americanos</title>
+        <date>2024-02-26</date>
+        <author>
+            <id>a89292</id>
+            <nome>Mike Pinto</nome>
+        </author>
+        <uc>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </uc>
+    </meta>
+
+    <resumo>
+        <p>Desenvolver uma página web em Node.js com informação de um dataset sobre filmes americanos, onde cada filme é composto por um id, título, ano de lançamento, gêneros e elenco.</p>
+        <p>A página web deverá conter índices com lista de filmes, lista de atores e lista de gêneros</p>
+        <p>Cada página de indice e detalhes deverá ainda possuir um botão de voltar atrás</p>
+        <p>Matérial Necessário para a realização deste TPC disponível na página da UC na <plataforma>Elearning</plataforma></p>
+    </resumo>
+
+    <resultados>
+        <resultado>Página principal '/' com opção de navegar para as páginas de Lista de Filmes, Lista de Atores e Lista de Gêneros.</resultado>
+        <resultado>Página de lista de Filmes disponível no dataset, ordenados alfabeticamente por título do filme</resultado>
+        <resultado>Página de detalhes de um filme, onde constam o título, ano, lista de gêneros desse filme e lista de atores que participaram no filme. Todos os gêneros e atores presentes na página possuem hiperligação para as respetivas páginas.</resultado>
+        <resultado>Página da lista de Atores disponível no dataset, ordenados alfabeticamente por nome.</resultado>
+        <resultado>Página com o detalhe do Ator com id aX '/atores/aX', onde consta o seu nome e lista de filmes em que participou, com link para as páginas correspondentes.</resultado>
+        <resultado>Página da lista de Gêneros disponível no dataset, ordenados alfabeticamente por nome do gênero.</resultado>
+        <resultado>Página com o detalhe do Gênero com id gX '/generos/gX', onde consta a sua designação e lista de filmes desse gênero, com links para as páginas correspondentes.</resultado>
+    </resultados>
+</doc>
