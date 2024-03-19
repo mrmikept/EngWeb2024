@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC4: Compositores Músicais</title>
+        <date>2024-03-04</date>
+        <author>
+            <id>a89292</id>
+            <nome>Mike Pinto</nome>
+        </author>
+        <uc>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </uc>
+    </meta>
+
+    <resumo>
+        <p>Montar uma API de dados, com recurso a JSON-Server e desenvolver uma página em Node.js com informação de um dataset sobre compositores músicais, onde cada compositor é composto por um id, nome, bio, data Nascimento, data Obito e Periodo.</p>
+        <p>A página web deverá conter índices com lista de compositores e lista de periodos.</p>
+        <p>Deverá ainda possuir uma página sobre detalhes de um compositor, detalhes de um periodo e suportar operações CRUD sobre compositores e sobre periodos musicais.</p>
+        <p>Matérial Necessário para a realização deste TPC disponível na página da UC na <plataforma>Elearning</plataforma></p>
+    </resumo>
+
+    <resultados>
+        <resultado>Dataset formatado, com recurso a um script <script>parseJson.py</script> desenvolvido em python.
+        <resultado>Escrita de todas as páginas html necessárias usando a stylesheet <stylesheet>w3.css</stylesheet></resultado>
+        <resultado>Página de lista de Compositores nas rotas '/' ou '/compositores'</resultado>
+        <resultado>Página de Detalhes de um Compositor na rota '/compositores/{id}</resultado>
+        <resultado>Página de Registo de um Compositor na rota '/registo/compositores'</resultado>
+        <resultado>Página de Edição de um Compositor na rota '/edit/compositores/{id}'</resultado>
+        <resultado>Rota para apagar um compositor '/delete/compositores/{id}</resultado>
+        <resultado>Página de lista de Periodos na rota '/periodos</resultado>
+        <resultado>Página de detalhes de um Periodo na rota '/periodos/{id}</resultado>
+        <resultado>Página de Edição de um Periodo na rota '/edit/periodos/{id}</resultado>
+        <resultado>Rota para apagar um periodo '/delete/periodos/{id}</resultado>
+    </resultados>
+</doc>
