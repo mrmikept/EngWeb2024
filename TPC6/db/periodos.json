@@ -1,0 +1,693 @@
+[
+  {
+    "_id": "Barroco",
+    "secInicio": "",
+    "secFim": "",
+    "compositores": [
+      [
+        "C1",
+        "Alessandro Marcello"
+      ],
+      [
+        "C2",
+        "Alessandro Scarlatti"
+      ],
+      [
+        "C4",
+        "Altnickol, Johann Christoph"
+      ],
+      [
+        "C8",
+        "Antoine Forqueray"
+      ],
+      [
+        "C9",
+        "Antonio Lotti"
+      ],
+      [
+        "C10",
+        "Antonio Lucio Vivaldi"
+      ],
+      [
+        "C12",
+        "Antonio Soler"
+      ],
+      [
+        "C13",
+        "Ariosti, Attilio"
+      ],
+      [
+        "C16",
+        "Bach, Johann Sebastian"
+      ],
+      [
+        "C17",
+        "Bach, Wilhelm Friedemann"
+      ],
+      [
+        "C18",
+        "Balbastre, Claude"
+      ],
+      [
+        "C19",
+        "Baldassare Galuppi"
+      ],
+      [
+        "C20",
+        "Barbara of Portugal"
+      ],
+      [
+        "C21",
+        "Benda, Franz"
+      ],
+      [
+        "C23",
+        "Biber, Carl Heinrich"
+      ],
+      [
+        "C25",
+        "Bononcini, Giovanni Battista"
+      ],
+      [
+        "C26",
+        "Bonporti, Francesco Antonio"
+      ],
+      [
+        "C30",
+        "Caldara, Antonio"
+      ],
+      [
+        "C35",
+        "Corelli, Arcangelo"
+      ],
+      [
+        "C36",
+        "Couperin, Armand-Louis"
+      ],
+      [
+        "C38",
+        "David Perez"
+      ],
+      [
+        "C41",
+        "Domenico Alberti"
+      ],
+      [
+        "C42",
+        "Domenico Scarlatti"
+      ],
+      [
+        "C45",
+        "Durante, Francesco"
+      ],
+      [
+        "C47",
+        "Emanuele d'Astorga"
+      ],
+      [
+        "C53",
+        "Francesco Feo"
+      ],
+      [
+        "C54",
+        "Francesco Geminiani"
+      ],
+      [
+        "C55",
+        "Francesco Maria Veracini"
+      ],
+      [
+        "C57",
+        "Friederike Sophie Wilhelmine"
+      ],
+      [
+        "C59",
+        "Fux, Johann Joseph"
+      ],
+      [
+        "C60",
+        "Georg Bohm"
+      ],
+      [
+        "C61",
+        "Georg Muffat"
+      ],
+      [
+        "C62",
+        "Georg Philipp Telemann"
+      ],
+      [
+        "C64",
+        "Gibbs, Joseph"
+      ],
+      [
+        "C65",
+        "Giovanni Battista Bassani"
+      ],
+      [
+        "C70",
+        "Giuseppe Tartini"
+      ],
+      [
+        "C73",
+        "Grigny, Nicolas de"
+      ],
+      [
+        "C74",
+        "Handel, George Frideric"
+      ],
+      [
+        "C76",
+        "Hasse, Johann Adolph"
+      ],
+      [
+        "C77",
+        "Haym, Nicola Francesco"
+      ],
+      [
+        "C79",
+        "Henri Desmarets"
+      ],
+      [
+        "C80",
+        "Jan Dismas Zelenka"
+      ],
+      [
+        "C82",
+        "Jean-Joseph Mouret"
+      ],
+      [
+        "C83",
+        "Jean-Marie Leclair"
+      ],
+      [
+        "C84",
+        "Jeremiah Clarke"
+      ],
+      [
+        "C85",
+        "Johann Christoph(er) Pepusch"
+      ],
+      [
+        "C86",
+        "Johann David Heinichen"
+      ],
+      [
+        "C87",
+        "Johann Ernst Eberlin"
+      ],
+      [
+        "C88",
+        "Johann Gottlieb Goldberg"
+      ],
+      [
+        "C90",
+        "Johann Joachim Quantz"
+      ],
+      [
+        "C91",
+        "Johann Krieger"
+      ],
+      [
+        "C92",
+        "Johann Nicolaus Bach"
+      ],
+      [
+        "C93",
+        "Johann Pachelbel"
+      ],
+      [
+        "C95",
+        "Johann Tobias Krebs"
+      ],
+      [
+        "C99",
+        "John Eccles"
+      ],
+      [
+        "C101",
+        "Krebs, Johann Ludwig"
+      ],
+      [
+        "C102",
+        "Kuhnau, Johann"
+      ],
+      [
+        "C103",
+        "Leo, Leonardo"
+      ],
+      [
+        "C106",
+        "Louis Marchand"
+      ],
+      [
+        "C107",
+        "Louis-Claude Daquin"
+      ],
+      [
+        "C116",
+        "Marais, Marin"
+      ],
+      [
+        "C118",
+        "Marcello, Benedetto"
+      ],
+      [
+        "C119",
+        "Martini, Giovanni Battista"
+      ],
+      [
+        "C120",
+        "Mattheson, Johann"
+      ],
+      [
+        "C121",
+        "Maurice Greene"
+      ],
+      [
+        "C125",
+        "Michel Richard Delalande"
+      ],
+      [
+        "C126",
+        "Mondonville, Jean-Joseph"
+      ],
+      [
+        "C129",
+        "Neander, Joachim"
+      ],
+      [
+        "C130",
+        "Nicola Porpora"
+      ],
+      [
+        "C131",
+        "Nicolas Siret"
+      ],
+      [
+        "C132",
+        "Nicolaus Bruhns"
+      ],
+      [
+        "C136",
+        "Pergolesi, Giovanni Battista"
+      ],
+      [
+        "C141",
+        "Purcell, Henry"
+      ],
+      [
+        "C142",
+        "Rameau, Jean-Philippe"
+      ],
+      [
+        "C145",
+        "Robert de Visee"
+      ],
+      [
+        "C146",
+        "Rousseau, Jean-Jacques"
+      ],
+      [
+        "C147",
+        "Sammartini, Giovanni Battista"
+      ],
+      [
+        "C148",
+        "Sammartini, Giuseppe"
+      ],
+      [
+        "C151",
+        "Schenck, Johannes"
+      ],
+      [
+        "C152",
+        "Seixas, Carlos"
+      ],
+      [
+        "C154",
+        "Steffani, Agostino"
+      ],
+      [
+        "C156",
+        "Thomas Arne"
+      ],
+      [
+        "C160",
+        "Tomaso Albinoni"
+      ],
+      [
+        "C161",
+        "Veracini, Antonio"
+      ],
+      [
+        "C163",
+        "Weldon, John"
+      ],
+      [
+        "C165",
+        "Wilhelmine of Prussia"
+      ],
+      [
+        "C166",
+        "William Boyce"
+      ],
+      [
+        "C167",
+        "Zachow, Friedrich Wilhelm"
+      ],
+      [
+        "C168",
+        "Zipoli, Domenico"
+      ]
+    ]
+  },
+  {
+    "_id": "Renascimento",
+    "secInicio": "",
+    "secFim": "",
+    "compositores": [
+      [
+        "C3",
+        "Alessandro Stradella"
+      ],
+      [
+        "C5",
+        "Andrea Falconieri"
+      ],
+      [
+        "C6",
+        "Anerio, Felice"
+      ],
+      [
+        "C7",
+        "Anerio, Giovanni Francesco"
+      ],
+      [
+        "C11",
+        "Antonio Maria Abbatini"
+      ],
+      [
+        "C14",
+        "Bach, Johann Christoph"
+      ],
+      [
+        "C15",
+        "Bach, Johann Michael"
+      ],
+      [
+        "C22",
+        "Bernardo Pasquini"
+      ],
+      [
+        "C24",
+        "Biber, Heinrich Ignaz Franz"
+      ],
+      [
+        "C27",
+        "Boyvin, Jacques"
+      ],
+      [
+        "C28",
+        "Bull, John"
+      ],
+      [
+        "C29",
+        "Cabanilles, Juan Bautista"
+      ],
+      [
+        "C31",
+        "Carissimi, Giacomo"
+      ],
+      [
+        "C32",
+        "Cavalieri, Emilio de'"
+      ],
+      [
+        "C33",
+        "Cavalli, Francesco"
+      ],
+      [
+        "C34",
+        "Cesti, Antonio"
+      ],
+      [
+        "C37",
+        "Cristofaro Caresana"
+      ],
+      [
+        "C39",
+        "Dieterich Buxtehude"
+      ],
+      [
+        "C40",
+        "Diogo Dias Melgas"
+      ],
+      [
+        "C43",
+        "Duarte Lobo"
+      ],
+      [
+        "C44",
+        "Duarte Lôbo"
+      ],
+      [
+        "C46",
+        "Elisabeth Sophie of Mecklenburg"
+      ],
+      [
+        "C48",
+        "Esteban Lopez Morago"
+      ],
+      [
+        "C49",
+        "Estevao de Brito"
+      ],
+      [
+        "C50",
+        "Ferdinand Iii, Holy Roman Emperor"
+      ],
+      [
+        "C51",
+        "Fernandes, Gaspar"
+      ],
+      [
+        "C52",
+        "Filipe De Magalhaes"
+      ],
+      [
+        "C56",
+        "Frescobaldi, Girolamo"
+      ],
+      [
+        "C58",
+        "Froberger, Johann Jakob"
+      ],
+      [
+        "C63",
+        "Gibbons, Orlando"
+      ],
+      [
+        "C66",
+        "Giovanni Battista Vitali"
+      ],
+      [
+        "C67",
+        "Giovanni Gabrieli"
+      ],
+      [
+        "C68",
+        "Giovanni Legrenzi"
+      ],
+      [
+        "C69",
+        "Giulio Caccini"
+      ],
+      [
+        "C71",
+        "Gregor Aichinger"
+      ],
+      [
+        "C72",
+        "Gregorio Allegri"
+      ],
+      [
+        "C75",
+        "Hans Leo Haßler"
+      ],
+      [
+        "C78",
+        "Heinrich Scheidemann"
+      ],
+      [
+        "C81",
+        "Jan Pieterszoon Sweelinck"
+      ],
+      [
+        "C89",
+        "Johann Hermann Schein"
+      ],
+      [
+        "C94",
+        "Johann Schop"
+      ],
+      [
+        "C96",
+        "John 04 Of Portugal"
+      ],
+      [
+        "C97",
+        "John Blow"
+      ],
+      [
+        "C98",
+        "John Dowland"
+      ],
+      [
+        "C100",
+        "John IV"
+      ],
+      [
+        "C104",
+        "Leopold I"
+      ],
+      [
+        "C105",
+        "Louis Couperin"
+      ],
+      [
+        "C108",
+        "Luigi de Rossi"
+      ],
+      [
+        "C109",
+        "Lully, Jean-Baptiste"
+      ],
+      [
+        "C110",
+        "Lôbo, Duarte"
+      ],
+      [
+        "C111",
+        "Machado, Manuel"
+      ],
+      [
+        "C112",
+        "Madre De Deus, Filpe Da"
+      ],
+      [
+        "C113",
+        "Manuel Cardoso"
+      ],
+      [
+        "C114",
+        "Manuel Correia"
+      ],
+      [
+        "C115",
+        "Manuel Rodriguez Coelho"
+      ],
+      [
+        "C117",
+        "Marc-Antoine Charpentier"
+      ],
+      [
+        "C122",
+        "Maurice, Landgrave of Hesse-Kassel"
+      ],
+      [
+        "C123",
+        "Melchior Schildt"
+      ],
+      [
+        "C124",
+        "Michael Praetorius"
+      ],
+      [
+        "C127",
+        "Monsieur de Sainte-Colombe"
+      ],
+      [
+        "C128",
+        "Monteverdi, Claudio"
+      ],
+      [
+        "C133",
+        "Nivers, Guillaume-Gabriel"
+      ],
+      [
+        "C134",
+        "Paolo Agostino"
+      ],
+      [
+        "C135",
+        "Pedro de Araujo"
+      ],
+      [
+        "C137",
+        "Peri, Jacopo"
+      ],
+      [
+        "C138",
+        "Peter Philips"
+      ],
+      [
+        "C139",
+        "Pierre Beauchamp"
+      ],
+      [
+        "C140",
+        "Pietro Della Valle"
+      ],
+      [
+        "C143",
+        "Reincken, Johann Adam"
+      ],
+      [
+        "C144",
+        "Robert Cambert"
+      ],
+      [
+        "C149",
+        "Samuel Scheidt"
+      ],
+      [
+        "C150",
+        "Sanz, Gaspar"
+      ],
+      [
+        "C153",
+        "Stefano Landi"
+      ],
+      [
+        "C155",
+        "Strozzi, Barbara"
+      ],
+      [
+        "C157",
+        "Thomas Campion"
+      ],
+      [
+        "C158",
+        "Thomas Weelkes"
+      ],
+      [
+        "C159",
+        "Titelouze, Jean"
+      ],
+      [
+        "C162",
+        "Viadana, Lodovico Grossi da"
+      ],
+      [
+        "C164",
+        "Wilbye, John"
+      ]
+    ]
+  },
+  {
+    "_id": "Moderno",
+    "secInicio": "XX",
+    "secFim": ""
+  }
+]
