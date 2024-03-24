@@ -1,0 +1,40 @@
+extends layout 
+
+block content
+    .w3-container
+        .w3-cell-row(style={width: '30%'})
+            .w3-cell
+                h2
+                    b Lista de Periodos
+            .w3-cell
+                p
+                    a.w3-button.w3-round.w3-grey(href="/periodos/registo")
+                        b Adicionar Periodo
+            
+        table.w3-table-all
+            tr
+                th  Designação
+                th  Século de Inicio
+                th  Século de Fim
+                th  Ações
+            each periodo in lPeriodos  
+                tr
+                    td
+                        a(href="/periodos/" + periodo._id)= periodo._id
+                    if periodo.secInicio
+                       td= periodo.secInicio
+                    else
+                        td Informação não dísponivel
+                    if periodo.secFim
+                        td= periodo.secFim
+                    else
+                        td Informação não dísponivel
+                    td
+                        span [
+                        a(href="/periodos/edit/" + periodo._id) Editar
+                        span ]
+                        span [
+                        a(href="/periodos/delete" + periodo._id) Apagar
+                        span ]
+                    
+                

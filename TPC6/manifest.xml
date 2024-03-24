@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC6 - API REST sobre compositores e Web App para gestão de compositores e periodos músicais</title>
+        <date>2024-03-18</date>
+        <author>
+            <id>a89292</id>
+            <nome>Mike Pinto</nome>
+        </author>
+        <uc>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </uc>
+    </meta>
+
+    <resumo>
+        <p>Desenvolver uma API de Dados REST para obter/modificar informação sobre compositores e periodos músicais presentes numa Base de Dados em MongoDB.</p>
+        <p>esenvolver uma web app, utilizando a framework Express.js e PUG.js, para a gestão de compositores e periodos músicais recorrendo a operações CRUD sobre os mesmos.</p>
+    </resumo>
+
+    <resultados>
+        <resultado>API de dados sobre compositores desenvolvida.</resultado>
+        <resultado>API de dados sobre periodos desenvolvida.</resultado>
+        <resultado>Utilizada a Web APP para a gestão de compositores e periodos músicais desenvolvida no TPC5</resultado>
+        <resultado>Operações CRUD implementadas e funcionais.</resultado>
+    </resultados>
+</doc>

@@ -23,6 +23,13 @@ router.delete('/:id', function(req, res, next) {
     .catch(e => res.jsonp(e))
 })
 
+// PUT Periodos
+router.put('/:id', function(req, res, next) {
+    periodo.update(req.params.id, req.body)
+    .then(data => res.jsonp(data))
+    .catch(e => res.jsonp(e))
+})
+
 // Get Periodos
 router.get('/:id', function(req, res, next) {
     periodo.get(req.params.id)

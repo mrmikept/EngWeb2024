@@ -1,0 +1,33 @@
+extends layout
+
+block content
+    div.w3-container 
+        h2.w3-center 
+            b Registo de um compositor
+        form.w3-container(method="POST")
+            fildset
+                label
+                    b Id
+                input.w3-input.w3-round.w3-border(type="text" name="_id" required)
+                label
+                    b Nome
+                input.w3-input.w3-round.w3-border(type="text" name="nome" required)
+                label
+                    b Data Nascimento
+                input.w3-input.w3-round.w3-border(type="text" name="dataNasc")
+                label   
+                    b Data de Obíto
+                input.w3-input.w3-round.w3-border(type="text" name="dataObito")
+                label
+                    b Biografia
+                textarea.w3-input.w3-border.w3-round(name="bio")
+                label
+                    b Período
+                each periodo in lperiodo
+                    br
+                    input.w3-radio.w3-border(id=periodo._id type="radio" name="periodo" value=periodo._id required)
+                    label(for=periodo._id)= periodo._id
+                br
+                button.w3-btn.w3-teal.w3-mb-2.w3-margin-top(type="submit") Registar Compositor
+        
+        

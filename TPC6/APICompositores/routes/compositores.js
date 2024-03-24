@@ -23,6 +23,13 @@ router.delete('/:id', function(req, res, next) {
     .catch(e => res.jsonp(e))
 })
 
+// PUT Compositores
+router.put('/:id', function(req, res, next) {
+    compositor.update(req.params.id, req.body)
+    .then(data => res.jsonp(data))
+    .catch(e => res.jsonp(e))
+})
+
 // Get Compositores
 router.get('/:id', function(req, res, next) {
     compositor.get(req.params.id)

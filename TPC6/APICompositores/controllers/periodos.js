@@ -27,6 +27,6 @@ module.exports.delete = (id) => {
 
 module.exports.get = (id) => {
     return Periodo
-        .find({_id: id}, {})
+        .findOne({_id: id}, {})
         .exec()
 }

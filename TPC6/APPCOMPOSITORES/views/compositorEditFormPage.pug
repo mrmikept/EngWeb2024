@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    h2.w3-center
+        b Edição de Compositor
+    form.w3-container(method="POST")
+        fildset
+            label
+                b Id
+            input.w3-input.w3-border.w3-round(type="text" name="_id" readonly value=comp._id)
+            label
+                b Nome*
+            input.w3-input.w3-border.w3-round(type="text" name="nome" required value=comp.nome)
+            label
+                b Data Nascimento
+            input.w3-input.w3-border.w3-round(type="text" name="dataNasc" value=comp.dataNasc)
+            label
+                b Data de Obíto
+            input.w3-input.w3-border.w3-round(type="text" name="dataObito" value=comp.dataObito)
+            label
+                b Biografia
+            textarea.w3-input.w3-border.w3-round(name="bio")= comp.bio
+            label
+                b Período
+            input.w3-input.w3-border.w3-round(type="text" name="periodo" value=comp.periodo readonly)
+        br
+        button.w3-btn.w3-teal.w3-mb-2(type="submit") Guardar Alterações
+        

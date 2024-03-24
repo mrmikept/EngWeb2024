@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    h2.w3-center 
+        b Edição do Período #{periodo._id}
+    form.w3-container(method="POST") 
+        fildset 
+            label 
+                b Designação
+            input.w3-input.w3-border.w3-round(type="text" name="_id" required value=periodo._id readonly)
+            label 
+                b Século de Início
+            input.w3-input.w3-border.w3-round(type="text" name="secInicio" value=periodo.secInicio)
+            label 
+                b Século de Fim
+            input.w3-input.w3-border.w3-round(type="text" name="secFim" value=periodo.secFim)
+        br
+        button.w3-btn.w3-teal.w3-mb-2(type="submit") Guardar Alterações
+    
