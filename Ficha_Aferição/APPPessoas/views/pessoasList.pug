@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  .w3-container 
+    .w3-cell-row
+        .w3-cell.w3-right
+            p
+                a.w3-button.w3-round.w3-green(href="/compositores/registo")
+                    b Adicionar Pessoa
+    table.w3-table-all
+        tr
+            th CC/BI
+            th Nome
+            th Idade
+            th sexo
+            th Ações
+        each pessoa in lpessoas
+            tr
+                td
+                    a(href="/pessoas/" + pessoa._id)= pessoa._id
+                td= pessoa.nome
+                if pessoa.idade
+                    td= pessoa.idade
+                else 
+                    td -
+                td= pessoa.sexo
+                td
+                    span [
+                    a(href="/pessoas/edit/" + pessoa._id) Editar 
+                    span ]
+                    span [
+                    a(href="/pessoas/delete/" + pessoa._id) Apagar 
+                    span ]

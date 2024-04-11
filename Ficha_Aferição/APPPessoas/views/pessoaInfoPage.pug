@@ -1,0 +1,187 @@
+extends layout
+
+block content
+    h2.w3-center
+        b= pessoa.nome
+    .w3-container.w3-margin-bottom
+        ul.w3-ul.w3-card-4
+            li
+                b BI/CC: 
+                if pessoa._id
+                    span= pessoa._id
+                else
+                    span Sem Informação.
+            li
+                b Nome: 
+                if pessoa.nome
+                    span= pessoa.nome
+                else
+                    span Sem Informação.
+            li
+                b Sexo: 
+                if pessoa.sexo
+                    span= pessoa.sexo
+                else
+                    span Sem Informação.
+            li
+                b Idade: 
+                if pessoa.idade
+                    span= pessoa.idade
+                else
+                    span Sem Informação.
+            li
+                b Morada:
+                if pessoa.morada
+                    ul.w3-ul
+                        li
+                            b Cidade: 
+                            if pessoa.morada.cidade
+                                span= pessoa.morada.cidade
+                            else
+                                span Sem Informação.
+                        li
+                            b Distrito: 
+                            if pessoa.morada.distrito
+                                span= pessoa.morada.distrito
+                            else
+                                span Sem Informação.
+                else
+                    span Sem Informação.
+            li
+                b Descrição: 
+                if pessoa.descrição
+                    span= pessoa.descrição
+                else
+                    span Sem Informação.
+            li
+                b Profissão: 
+                if pessoa.profissao
+                    span= pessoa.profissao
+                else 
+                    span Sem Informação.
+            li
+                b Partido Político:
+                if pessoa.partido_politico.party_name
+                    span= pessoa.partido_politico.party_name
+                        if pessoa.partido_politico.party_abbr
+                            span  (
+                            span= pessoa.partido_politico.party_abbr
+                            span )
+                else
+                    span Sem Informação.
+            li
+                b Religião: 
+                if pessoa.religiao
+                    span= pessoa.religiao
+                else 
+                    span Sem Informação.
+            li
+                b Modalidades:
+                if pessoa.desportos
+                    ul.w3-ul
+                        each desporto in pessoa.desportos
+                            li
+                                span= desporto
+                else
+                    span Sem Informação.
+            li
+                b Animais:
+                if pessoa.animais
+                    ul.w3-ul
+                        each animal in pessoa.animais
+                            li
+                                span= animal
+                else
+                    span Sem Informação.
+            li
+                b Figura Pública:
+                if pessoa.figura_publica_pt
+                    ul.w3-ul
+                        each figura in pessoa.figura_publica_pt
+                            li
+                                span= figura
+                else
+                    span Sem Informação.
+            li
+                b Marca do Carro:
+                if pessoa.marca_carro
+                    span= pessoa.marca_carro
+                else
+                    span Sem Informação.
+            li
+                b Destinos Favoritos:
+                if pessoa.destinos_favoritos
+                    ul.w3-ul
+                        each destino in pessoa.destinos_favoritos
+                            li
+                                span= destino
+                else
+                    span Sem Informação.
+            li
+                b Atributos: 
+                ul.w3-ul
+                    li
+                        b Fuma? 
+                        if pessoa.atributos['fumador']
+                            span.w3-text-green Sim
+                        else 
+                            span.w3-text-red Não
+                    li
+                        b Gosta de Cinema? 
+                        if pessoa.atributos['gosta_cinema']
+                            span.w3-text-green Sim
+                        else 
+                            span.w3-text-red Não        
+                    li
+                        b Gosta de Viajar? 
+                        if pessoa.atributos['gosta_viajar']
+                            span.w3-text-green Sim
+                        else 
+                            span.w3-text-red Não       
+                    li
+                        b Acorda Cedo? 
+                        if pessoa.atributos['acorda_cedo']
+                            span.w3-text-green Sim
+                        else 
+                            span.w3-text-red Não    
+                    li
+                        b Gosta de Ler? 
+                        if pessoa.atributos['gosta_ler']
+                            span.w3-text-green Sim
+                        else 
+                            span.w3-text-red Não    
+                    li
+                        b Gosta de Música? 
+                        if pessoa.atributos['gosta_musica']
+                            span.w3-text-green Sim
+                        else 
+                            span.w3-text-red Não    
+                    li
+                        b Gosta de Comer? 
+                        if pessoa.atributos['gosta_comer']
+                            span.w3-text-green Sim
+                        else 
+                            span.w3-text-red Não    
+                    li
+                        b Gosta de Animais de Estimação? 
+                        if pessoa.atributos['gosta_animais_estimacao']
+                            span.w3-text-green Sim
+                        else 
+                            span.w3-text-red Não  
+                    li
+                        b Gosta de Dançar? 
+                        if pessoa.atributos['gosta_dancar']
+                            span.w3-text-green Sim
+                        else 
+                            span.w3-text-red Não  
+                    li
+                        b Comida Favorita: 
+                        span= pessoa.atributos['comida_favorita']
+    .w3-cell.w3-container.w3-margin-bottom 
+        a.w3-button.w3-green(href="/pessoas")
+            b Voltar à lista de Pessoas
+        a.w3-button.w3-blue(href="/pessoas/edit/" + pessoa._id)
+            b Editar Pessoa
+        a.w3-button.w3-red(href="/pessoas/delete/" + pessoa._id)
+            b Apagar Pessoa
+        
